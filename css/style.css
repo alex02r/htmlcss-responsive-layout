@@ -69,6 +69,7 @@ footer{
 }
 
 /* MEDIA QUERY */
+/* media query for tablet device */
 @media screen and (min-width: 768px) {
     /* to fix firts section */
     .col-33{
@@ -84,5 +85,12 @@ footer{
     .col-50-media{
         width: calc(100% / 2 - 20px);
         margin: 10px;
+    }
+}
+/* media query for desktop device */
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }
