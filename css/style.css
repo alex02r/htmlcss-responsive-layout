@@ -14,7 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
 }
 .f-right{
     float: right;
@@ -45,6 +45,7 @@
 }
 .bg-white{
     background-color: #fff;
+    color: black;
 }
 /* height */
 .height-100{
@@ -60,8 +61,14 @@
 header{
     width: 100%;
     background-color: #0084FD;
-    padding: 20px 0;
     color: white;
+    padding: 10px 0;
+}
+.hidden{
+    display: none;
+}
+header i{
+    font-size: 30px;
 }
 /* FOOTER */
 footer{
@@ -92,6 +99,30 @@ footer{
     .container{
         max-width: 1200px;
         margin: 0 auto;
+    }
+    .show{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+    .hidden ul{
+        display: flex;
+        list-style: none;
+        padding-top: 10px;
+    }
+    .hidden ul li{
+        padding: 0 10px;
+    }
+    .hidden li a{
+        text-decoration: none;
+        color: white;
+    }
+    .btn{
+        border: none;
+        border-radius: 25px;
+        padding: 10px;
+        font-weight: 500;
     }
     /* to fix second section */
     .col-50{
