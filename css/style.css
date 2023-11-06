@@ -275,6 +275,17 @@ header .btn{
 footer{
     background-color: #333333;
 }
+.width-center{
+    width: 70%;
+    margin: 0 auto;
+}
+.text-footer{
+    color: white;
+    text-align: center;
+}
+.text-footer a{
+    color: #9792E4;
+}
 
 /* MEDIA QUERY */
 /* media query for tablet device */
@@ -334,5 +345,9 @@ footer{
     .col-33{
         width: calc(100% / 3 - 20px);
         margin: 10px;
+    }
+    /* to fix footer */
+    .width-center{
+        width: 60%;
     }
 }
