@@ -67,3 +67,15 @@ header{
 footer{
     background-color: #333333;
 }
+
+/* MEDIA QUERY */
+@media screen and (min-width: 768px) {
+    .col-33{
+        width: calc(100% / 3 - 20px);
+        margin: 10px;
+    }
+    .col-66{
+        width: calc(100% / 3 * 2 - 20px);
+        margin: 10px;
+    }
+}
