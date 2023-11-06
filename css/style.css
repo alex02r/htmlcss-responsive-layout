@@ -37,11 +37,19 @@
 .bg-blue{
     background-color: #B5DDFF;
 }
+.bg-purple{
+    background-color: #9792E4;
+}
+.bg-white{
+    background-color: #fff;
+}
 /* height */
 .height-300{
     height: 300px;
 }
-
+.height-600{
+    height: 600px;
+}
 /* HEADER */
 header{
     width: 100%;
