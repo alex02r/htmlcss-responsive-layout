@@ -96,7 +96,7 @@ header i{
     font-weight: 500;
     margin: 10px 0;
 }
-.content-col .btn{
+.btn-spacing{
     font-size: 20px;
     letter-spacing: 3px;
     padding: 10px 50px;
@@ -186,6 +186,32 @@ header i{
 }
 .user h3{
     padding-top: 20px;
+}
+
+/* fourth section */
+.text-working{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.card{
+    padding: 20px;
+}
+.card h1{
+    color: #9792E4;
+    font-size: 40px;
+}
+.card h3{
+    color: #9792E4;
+    padding: 20px 0;
+}
+.card p{
+    color: #5A6E7F;
+    line-height: 1.5;
+}
+.card .btn{
+    color: white;
+    font-size: 16px;
 }
 /* FOOTER */
 footer{
