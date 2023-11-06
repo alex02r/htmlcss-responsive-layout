@@ -18,11 +18,28 @@
 .f-right{
     float: right;
 }
+.border-radius-25{
+    border-radius: 25px;
+}
 
 /* column */
 .col-50{
     width: 50%;
     padding: 0 20px;
+}
+.col-100{
+    width: 100%;
+    margin: 10px 20px;
+}
+
+/* COMMON TO REMOVE */
+/* color's */
+.bg-blue{
+    background-color: #B5DDFF;
+}
+/* height */
+.height-300{
+    height: 300px;
 }
 
 /* HEADER */
