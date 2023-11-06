@@ -98,4 +98,9 @@ footer{
         width: calc(100% / 2 - 20px);
         margin: 10px;
     }
+    /* to fix fourth section */
+    .col-33{
+        width: calc(100% / 3 - 20px);
+        margin: 10px;
+    }
 }
