@@ -146,6 +146,7 @@ header i{
     padding: 15px 20px;
     font-weight: 800;
 }
+
 /* third section */
 /* title of section */
 .testimonial .content{
@@ -164,6 +165,19 @@ header i{
     font-weight: 400;
 }
 /* testimonial */
+.user-img{
+    display: inline-block; /* per centrarlo con text align */
+    position: relative; 
+    width: 200px;
+    height: 200px;
+    overflow: hidden; /* per applicare il border radius */
+    border-radius: 50%;
+}
+.user-img img{
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
 .user{
     color: white;
 }
@@ -192,7 +206,9 @@ footer{
     }
 
     /* to fix third section */
-    
+    .user{
+        text-align: left;
+    }
     /* to fix section with six column */
     .col-50-media{
         width: calc(100% / 2 - 20px);
