@@ -64,7 +64,6 @@
 }
 .bg-white{
     background-color: #fff;
-    color: black;
 }
 .btn-blue{
     background-color: #0084FD;
@@ -83,7 +82,9 @@ header{
 header i{
     font-size: 30px;
 }
-
+header .btn{
+    color: black;
+}
 /* first section of main */
 .content-col h2{
     color: #0084FD;
@@ -243,7 +244,33 @@ header i{
     font-size: 50px;
     color: #9792E4;
 }
-/* text */
+
+/* sixth section */
+.text-bottom{
+    text-align: center;
+    color: #fff;
+}
+.text-bottom h3{
+    color: rgb(194, 194, 194);
+    font-weight: 300;
+}
+.text-bottom h2{
+    padding: 20px 0;
+}
+.text-bottom h1{
+    color: #FDC15F;
+    font-size: 50px;
+}
+.text-bottom p{
+    padding: 20px 0;
+    line-height: 1.5;
+}
+.text-bottom .btn{
+    color: #9792E4;
+}
+.text-bottom a{
+    color: white;
+}
 /* FOOTER */
 footer{
     background-color: #333333;
