@@ -93,4 +93,9 @@ footer{
         max-width: 1200px;
         margin: 0 auto;
     }
+    /* to fix second section */
+    .col-50{
+        width: calc(100% / 2 - 20px);
+        margin: 10px;
+    }
 }
