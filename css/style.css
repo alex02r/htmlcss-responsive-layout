@@ -10,6 +10,12 @@
 .padding-20{
     padding: 20px;
 }
+.padding-top-50{
+    padding-top: 50px;
+}
+.padding-bottom-80{
+    padding-bottom: 80px;
+}
 .container{
     width: 100%;
 }
