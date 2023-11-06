@@ -6,3 +6,29 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+/* COMMON */
+.container{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.f-right{
+    float: right;
+}
+
+/* column */
+.col-50{
+    width: 50%;
+    padding: 0 20px;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    background-color: #0084FD;
+    padding: 20px 0;
+    color: white;
+}
