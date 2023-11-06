@@ -213,6 +213,37 @@ header i{
     color: white;
     font-size: 16px;
 }
+
+/* fifth section */
+
+.text-about{
+    color: #9792E4;
+}
+.text-about .btn{
+    margin: 20px 0;
+    color: white;
+}
+.text-about p{
+    color: black;
+    padding: 20px 0;
+    line-height: 1.8;
+}
+/* img */
+.img-radius{
+    width: 200px;
+    border-radius: 50%;
+}
+/* position of quotations on image*/
+.about-img{
+    position: relative;
+}
+.about-img i{
+    position: absolute;
+    left: 150px;
+    font-size: 50px;
+    color: #9792E4;
+}
+/* text */
 /* FOOTER */
 footer{
     background-color: #333333;
