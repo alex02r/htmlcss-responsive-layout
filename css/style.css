@@ -7,6 +7,9 @@
     font-family: 'Roboto', sans-serif;
 }
 /* COMMON */
+.padding-20{
+    padding: 20px;
+}
 .container{
     width: 100%;
 }
@@ -92,6 +95,11 @@ header i{
 }
 .content-col img{
     width: 100%;
+}
+/* Second section of main */
+.icons{
+    color: #0084FD;
+    font-size: 100px;
 }
 
 /* FOOTER */
