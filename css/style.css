@@ -102,12 +102,47 @@ header i{
 .content-col img{
     width: 100%;
 }
-/* Second section of main */
 .icons{
     color: #0084FD;
     font-size: 100px;
 }
 
+/* Second section of main */
+/* 1st card */
+.planning-one img{
+    width: 100%;
+    margin: 20px 0;
+}
+.text-planning-one{
+    color: #fff;
+    margin-top: 50px;
+}
+.text-planning-one h2{
+    margin: 30px 0;
+}
+.text-planning-one p{
+    font-weight: 300;
+    line-height: 1.5;
+}
+/* 2nd card */
+.planning-two{
+    padding: 30px;
+    text-align: center;
+}
+.planning-two img{
+    width: 100%;
+}
+.planning-two p{
+    font-style: italic;
+    line-height: 2;
+    margin: 20px 0;
+}
+.arrow-down{
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 15px 20px;
+    font-weight: 800;
+}
 /* FOOTER */
 footer{
     background-color: #333333;
