@@ -147,7 +147,32 @@ header i{
     font-weight: 800;
 }
 /* third section */
-
+/* title of section */
+.testimonial .content{
+    text-align: center;
+    padding: 20px;
+}
+.testimonial .content h3{
+    font-weight: 400;
+}
+.testimonial .content h1{
+    margin: 30px 0;
+    color: #9792E4;
+}
+.testimonial .content p{
+    line-height: 2;
+    font-weight: 400;
+}
+/* testimonial */
+.user{
+    color: white;
+}
+.marks{
+    font-size: 20px;
+}
+.user h3{
+    padding-top: 20px;
+}
 /* FOOTER */
 footer{
     background-color: #333333;
@@ -166,6 +191,8 @@ footer{
         margin: 10px;
     }
 
+    /* to fix third section */
+    
     /* to fix section with six column */
     .col-50-media{
         width: calc(100% / 2 - 20px);
